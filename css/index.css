@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+    font-family: InterDisplay;
+    font-weight: 400;
+    src: url(public/fonts/InterDisplay/InterDisplay-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-weight: 500;
+    src: url(public/fonts/InterDisplay/InterDisplay-Medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-weight: 600;
+    src: url(public/fonts/InterDisplay/InterDisplay-SemiBold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-weight: 700;
+    src: url(public/fonts/InterDisplay/InterDisplay-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-weight: 800;
+    src: url(public/fonts/InterDisplay/InterDisplay-ExtraBold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-weight: 900;
+    src: url(public/fonts/InterDisplay/InterDisplay-Black.woff2) format("woff2");
+}
+  
+
+.casestudy .title h1 {
+    @apply text-4xl;
+    @apply font-medium;
+    @apply font-display;
+    @apply leading-10;
+}
+
+.casestudy h1 {
+    @apply font-display;
+    @apply text-3xl;
+    @apply pb-6;
+    @apply font-medium;
+
+}
+
+.casestudy h2 {
+    @apply text-xl;
+    @apply font-display;
+    @apply font-medium;
+}
+
+.casestudy h3 {
+    @apply text-lg;
+    @apply font-display;
+    @apply font-medium;
+}
+
+.casestudy p {
+    @apply py-1;
+    @apply text-base;
+}
+
+.casestudy strong{
+    @apply font-semibold;
+}
+
+.casestudy .indent {
+    @apply py-1;
+    @apply mx-6;
+}
+.casestudy ul {
+    @apply list-disc;
+    @apply list-outside;
+}
+
+.casestudy ol {
+    @apply list-decimal;
+    @apply list-outside;
+}
+
+.casestudy li {
+    @apply py-0.5;
+    @apply text-base;
+}
+
+.casestudy section {
+    @apply my-10;
+}
+
+.casestudy figure {
+
+}
+
+.casestudy figcaption {
+    @apply text-center;
+    @apply italic;
+    @apply text-gray-400;
+    @apply pt-0;
+}
+
+casestudy hr {
+    @apply border-gray-600;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #CBD5E1;
+}
+
+a:hover {
+    @apply text-yellow-600;
+}
