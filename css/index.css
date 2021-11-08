@@ -118,11 +118,21 @@ casestudy hr {
 
 .underline {
     text-decoration: underline;
+    text-decoration-style: dotted;
     text-underline-offset: 6px;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #CBD5E1;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #0066dbfa;
 }
 
 a:hover {
-    @apply text-yellow-600;
+    color: #0066dbfa;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #0066dbfa;
+    font-weight: 500;
 }

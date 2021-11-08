@@ -9,18 +9,18 @@ import Generative from "pages/projects/pyramid-strategy/assets/generativecover.p
 export default function index() {
 
     return(
-    <div className="max-w-screen-xl mx-auto px-6 pt-5">
+    <div className="px-6 md:px-12 pt-5">
         <section className="py-5">
-            <h1 className="text-2xl md:text-3xl font-display font-semibold leading-tight text-left max-w-3xl text-gray-700">UX Researcher and Designer, working on fitness & ecommerce experiences at PYRAMID.</h1>
+            <h1 className="text-2xl md:text-3xl font-display font-semibold text-left max-w-3xl text-gray-700">UX Researcher and Designer, building fitness experiences at PYRAMID.</h1>
         </section>
         <section className="py-20">
             <h1 className="text-xl font-display text-gray-600 font-medium pb-5">Featured Case Studies</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
                 <article>
-                    <Link href="projects/pyramid-strategy"><a className="hover:border">
+                    <Link href="projects/pyramid-strategy-copy"><a className="hover:border">
                         <Image src={Generative} alt="PYRAMID.fitness homepage" layout="intrinsic" objectFit="cover" quality={100} className="rounded-lg"></Image>
                     </a></Link>
-                    <Link href="projects/pyramid-strategy"><a className="underline">
+                    <Link href="projects/pyramid-strategy-copy"><a className="underline">
                         <h1 className="py-1 lg:pl-2 font-display text-xl font-medium">
                             Generative Research for Ecommerce Strategy
                         </h1>
